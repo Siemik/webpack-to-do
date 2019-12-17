@@ -29,9 +29,9 @@ class App extends React.Component {
     //metoda remainder
     render() {
     return (
-            <div className={style.TodoApp}>
-                test test.
-            </div>
+      <div className={style.TodoApp}>
+        <Title data={this.state.data} />
+      </div>
           );
     }
 }

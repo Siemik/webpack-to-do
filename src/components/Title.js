@@ -6,7 +6,7 @@ const Title = props => {
     props.data.length == 0
       ? `${style.taskQuantity} ${style.zeroQuantity}`
       : style.taskQuantity;
-  const yet = props.data.length == 0 ? "yet..." : "It's time Todo something!";
+  const yet = props.data.length == 0 ? "" : "It's time Todo something!";
   return (
     <div>
       <h1>Todo app</h1>
